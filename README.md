@@ -10,8 +10,18 @@ bower install scribe-plugin-formatter-html-ensure-semantic-elements
 
 ## Testing
 
+Install Karma, some plugins and dependencies
 ```
 npm install
+```
+
+Start Karma
+```
+node_modules/karma/bin/karma start --single-run
+```
+
+Install Karma-cli globally for convenience
+```
 npm install -g karma-cli
-karma start
+karma start --single-run
 ```
