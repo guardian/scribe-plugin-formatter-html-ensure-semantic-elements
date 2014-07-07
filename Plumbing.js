@@ -4,23 +4,23 @@
  * https://github.com/plumberjs/plumber
  */
 
-var all       = require('plumber-all');
-var glob      = require('plumber-glob');
+var all = require('plumber-all');
+var glob = require('plumber-glob');
 var requireJS = require('plumber-requirejs');
-var uglifyJS  = require('plumber-uglifyjs');
-var write     = require('plumber-write');
+var uglifyJS = require('plumber-uglifyjs');
+var write = require('plumber-write');
 
 module.exports = function (pipelines) {
-  var toBuildDir = write('./build');
-  var writeBoth = all(
-    // Send the resource along these branches
-    [uglifyJS(), toBuildDir],
-    toBuildDir
-  );
+    var toBuildDir = write('./build');
+    var writeBoth = all(
+        // Send the resource along these branches
+        [uglifyJS(), toBuildDir],
+        toBuildDir
+    );
 
-  pipelines['build'] = [
-    glob('src/scribe-plugin-formatter-html-ensure-semantic-elements.js'),
-    requireJS(),
-    writeBoth
-  ];
+    pipelines['build'] = [
+        glob('src/scribe-plugin-formatter-html-ensure-semantic-elements.js'),
+        requireJS(),
+        writeBoth
+    ];
 };

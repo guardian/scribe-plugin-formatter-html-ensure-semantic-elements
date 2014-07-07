@@ -1,3 +1,3 @@
 {
-  "main": "src/scribe-plugin-inline-styles-to-elements.js"
+    "main": "src/scribe-plugin-inline-styles-to-elements.js"
 }

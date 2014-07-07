@@ -1,26 +1,26 @@
 {
-  "name": "scribe-plugin-formatter-html-ensure-semantic-elements",
-  "version": "1.0.0",
-  "main": "src/scribe-plugin-formatter-html-ensure-semantic-elements.js",
-  "devDependencies": {
-    "karma": "~0.12.0",
-    "karma-chrome-launcher": "~0.1.0",
-    "karma-coverage": "~0.2.0",
-    "karma-jasmine": "~0.2.0",
-    "karma-phantomjs-launcher": "~0.1.0",
-    "karma-requirejs": "~0.2.0",
-    "karma-teamcity-reporter": "~0.1.0",
-    "mversion": "^1.0.0",
-    "plumber": "~0.4.0",
-    "plumber-all": "~0.4.0",
-    "plumber-cli": "^0.4.1",
-    "plumber-glob": "~0.4.0",
-    "plumber-requirejs": "~0.4.0",
-    "plumber-uglifyjs": "~0.4.0",
-    "plumber-write": "~0.4.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/guardian/scribe-plugin-formatter-html-ensure-semantic-elements.git"
-  }
+    "name": "scribe-plugin-formatter-html-ensure-semantic-elements",
+    "version": "1.0.0",
+    "main": "src/scribe-plugin-formatter-html-ensure-semantic-elements.js",
+    "devDependencies": {
+        "karma": "~0.12.0",
+        "karma-chrome-launcher": "~0.1.0",
+        "karma-coverage": "~0.2.0",
+        "karma-jasmine": "~0.2.0",
+        "karma-phantomjs-launcher": "~0.1.0",
+        "karma-requirejs": "~0.2.0",
+        "karma-teamcity-reporter": "~0.1.0",
+        "mversion": "^1.0.0",
+        "plumber": "~0.4.0",
+        "plumber-all": "~0.4.0",
+        "plumber-cli": "^0.4.1",
+        "plumber-glob": "~0.4.0",
+        "plumber-requirejs": "~0.4.0",
+        "plumber-uglifyjs": "~0.4.0",
+        "plumber-write": "~0.4.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/guardian/scribe-plugin-formatter-html-ensure-semantic-elements.git"
+    }
 }
