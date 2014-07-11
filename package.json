@@ -19,6 +19,10 @@
         "plumber-uglifyjs": "~0.4.0",
         "plumber-write": "~0.4.0"
     },
+    "scripts": {
+        "test":     "./node_modules/karma/bin/karma start karma.conf.js",
+        "test-dev": "./node_modules/karma/bin/karma start karma.conf.js --no-single-run"
+    },
     "repository": {
         "type": "git",
         "url": "git://github.com/guardian/scribe-plugin-formatter-html-ensure-semantic-elements.git"
