@@ -1,3 +1,4 @@
 {
+    "name": "scribe-plugin-formatter-html-ensure-semantic-elements",
     "main": "src/scribe-plugin-inline-styles-to-elements.js"
 }
