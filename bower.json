@@ -6,7 +6,7 @@
         "Huy Dinh <work@huydinh.com>"
     ],
     "description": "A scribe plugin to replace unsemantic nodes with semantic ones (b => strong, i => em)",
-    "main": "./scribe-plugin-inline-styles-to-elements.js",
+    "main": "./scribe-plugin-formatter-html-ensure-semantic-elements.js",
     "keywords": [
         "scribe",
         "plugin",
