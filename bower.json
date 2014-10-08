@@ -1,6 +1,6 @@
 {
     "name": "scribe-plugin-formatter-html-ensure-semantic-elements",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "homepage": "https://github.com/guardian/scribe-plugin-formatter-html-ensure-semantic-elements",
     "authors": [
         "Huy Dinh <work@huydinh.com>"
